@@ -1,0 +1,2120 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 12 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Tahoma","sans-serif";}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=Section1>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
+font-family:"Courier New"'>NeuroTox</span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
+font-family:"Courier New"'>10<sup>th</sup> October 2018</span></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><span
+style='font-size:16.0pt;line-height:115%;font-family:"Courier New"'>Model
+Layout and Pseudocode of basic Artificial Construct</span></b></p>
+
+<b><span style='font-size:16.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
+font-family:"Courier New"'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing><b><span style='font-size:16.0pt;font-family:"Courier New"'> ---========================================---
+</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>Overview of main components and
+members </span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>---========================================---
+</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>&nbsp;</span></b></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====-----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Notes</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====-----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The Node_ID
+can be thought of as a reference to a node. In this </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> example it is
+used as such, and at times similar to an integer value </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> which could
+be thought of as the address of the node.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//This pseudo
+code assumes familiarity with c++ syntax and the idea </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> of pointers.
+The CAN uses an array of pointers to nodes as a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> scaffold to
+build the constructs.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Syntax</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-The structure
+of functions, and general logic structures follow c++ sytax. An exception is
+for loops which resemble the python iterator based for loops. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-For loops: </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   for
+(CONDITIONS_OR_ITEMS) as ITERATOR_VARIABLE</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>  
+~CONDITIONS_OR_ITEMS: Either a set of conditions such as counting </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    from one
+to ten, or a set of items such as looking through every </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    entry in a
+data base.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>  
+~ITERATOR_VARIABLE: An identifier for the current iteration value, </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    or the
+current item in the list.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-The
+continuation of a line is shown by indenting by one space for </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the continued
+lines.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//LIST OF
+TERMS</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-Construct:
+The tree built that represents a pattern</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-Node: The
+basic building block of the networks. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-Axons and
+Dendrites: Connections between nodes. The axon can be </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> thought of as
+the sending portion of the connection and the dendrite </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> as receiving.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>-Unit of data:
+When referring to state nodes or inputs a single data </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> type such as
+integer or character may not be sufficient to describe </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the input.
+For example you may have your input set be a string of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> hashes with
+128 characters each; as far as you are concerned each </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> 128 character
+string is one unit of data. So for this reason I will </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> refer to
+units of data rather than a specific type.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:16.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:16.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//====----------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//==--     
+Construct</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//====----------------</span></p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>--== Contains:</p>
+
+<p class=MsoNoSpacing>&nbsp;</p>
+
+<p class=MsoNoSpacing>-Current Active Nodes (CAN)</p>
+
+<p class=MsoNoSpacing>-Node Network</p>
+
+<p class=MsoNoSpacing>-Input and Output tables</p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Eval is used
+to search the node network for the input pattern.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Eval()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Build is
+used when training to construct a representation of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> input data in
+the node network.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Takes an
+input into the construct so that it can be read in and </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> built, or
+queried. The input can be a bytestring, array of integers, </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> array of
+floats, or any set of data that can be represented by a one </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> dimensional
+array.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void
+Submit_Input(Data p_Input)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Starting at
+a given tier (Low_Tier) the CAN is charged until the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> topmost given
+tier is reached. This function is called after the CAN </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> has been built
+and uses the scaffold erected in the CAN.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Charge(int
+Low_Tier, int High_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//For all of
+the charged treetop nodes after evaluation gather the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> patterns that
+the treetop nodes represent and store the gathered </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> patterns in
+the output. Other information about the treetops can be </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> gathered,
+such as the charge.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void
+Gather_Output()</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--
+     Current Active Nodes (CAN)</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The CAN requires
+access to the node networks members that allow for </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Access to the
+node network</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The CAN
+builds the input from the construct.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Access to the
+input of the construct</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The node
+scaffold is a two dimensional array of Node_ID references. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> It is
+expanded to hold the construct necessary to represent the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> input
+pattern. The first index represents the height of the scaffold </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> in tiers
+which is equal to the length of the input set. The number </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> of nodes on
+each tier decreases with each step up the scaffold by </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> one to form a
+pyramidal structure.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Node_ID *
+Scaffold[Number_Of_Tiers] [Number_Of_Nodes_On_Each_Tier]</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Fills out
+the entire CAN, using preexisting nodes where possible  </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> and creating
+new ones when needed.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Fills out
+the CAN but only with preexisting nodes, it does not </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> create new
+ones.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Query()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Resizes the
+CAN scaffold based upon the size of the input.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Resize()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Gathers the
+state nodes associated with each unit of input.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Fill_State()</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Gathers the
+state node associated with each unit of input, but does </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> not create
+them if they are not found. Used for building a query.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Query_State()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>//Builds the node
+tiers after the input has been read in as state nodes.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void
+Build_Tiers_Full()</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Builds the
+node tiers after the input has been read in as state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> nodes but
+does not create new nodes.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void
+Build_Tiers_Query()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Reinforces
+the nodes currently in the CAN scaffold.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Reinforce()</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Node Network</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:<br>
+<br>
+</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Nodes arranged
+in tiers</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Takes a unit
+of input data and returns the node that is associated </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> with the unit
+of data. If no node currently exists for that unit of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> data then a
+new node is created and associated with the unit of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> data.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID
+Get_State_Node(Given_State)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The same as
+Get_State_Node(), however, no node is created if the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> unit of data
+is not found.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID
+Get_State_Node_For_Query(Given_State)<i> </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Create a
+connection from p_From node to p_To node for the given </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> dendrite.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Create_Connection(Node_ID
+p_From, Node_ID p_To, string </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> p_Dendrite)</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//When the CAN
+is building it needs to know if there is a node on a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> higher tier
+linking two lower tier nodes together. This function </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> searches for
+the linking node, if no node exists then one is </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> created.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID get_Upper_Tier_Connection(Node_ID
+left_Node, Node_ID </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> right_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//When the CAN
+is building for a query this function searches for then returns the upper tier
+linking node, however, if one does not exist then false is returned instead of
+a node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID
+Does_Upper_Tier_Connection_Exist(Node_ID left_Node, Node_ID </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> right_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The pattern
+represented by the node is backpropagated into an </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> output
+suitable to hold it. This is done by using an algorithm to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> trace the
+lower legs in the correct order to retrieve the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> information
+originally used in the construction of the tree that the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> current node
+is at the top of.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID
+Get_Node_Output_Pattern(Node_ID p_Node)<i> </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<i><span style='font-size:11.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span></i>
+
+<p class=MsoNormal><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>The
+backpropagation is initiated at the topmost treetop node. During </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> backpropagation
+the left dendrite is done slightly different than </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the right
+one. The left sends a signal down both of its dendrites; </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> whereas the
+right one only sends a signal down its right dendrite. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> This creates
+a wave effect when plotted that outputs the pattern </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> used to
+construct the tree exactly as it was input. This is why </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> keeping
+dendrite order is so important; if we did not track dendrite </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> order the
+output would be a meaningless mess.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Backpropagate
+a left dendrite linked node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate_Left(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Backpropagate_Right
+a right dendrite linked node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate_Right(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Node</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Current Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Base Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The action
+potential threshold and modifier charge function as a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> filter when
+evaluating a network. Without these values then every </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> single node
+that gets a charge will pass that charge all the way to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the top of
+the network. If you have a deep network with few inputs </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> you can
+charge the entire network at once which is usually not </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> desirable.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Action Potential
+Threshold (APT)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Modifier Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Reinforcement
+Counter (RC)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Axons linking to
+the dendrites of higher nodes.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Node that
+state nodes do not have two dendrites; rather they link </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> to a single
+node or contain a unit of data.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Left Dendrite
+linking to a lower node.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Right Dendrite
+linking to a lower node.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Normal nodes
+do not have a state, unless you store the entire </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> pattern
+represented by each node with that node to allow for </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> skipping the
+backpropagation saving on calculations.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Data_Unit State</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Adds to the
+nodes current charge, if the charge is over the action </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> potential
+threshold then it fires and sends a charge to all of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> nodes its
+axons connect to in the higher tiers.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Charge(float
+p_Charge) </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Adds to the
+nodes current charge, the Modifier charges role is </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> to act as a
+filter of sorts. When using the RC charging you modify </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the input
+charge based upon the RC score. </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void
+Add_To_Charge(float p_Charge)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Checks if
+the right dendrite value matches the given </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> p_Right_Dendrite</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>bool Does_Right_Dendrite_Match(Node_ID
+p_Right_Dendrite)</span></p>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
+font-family:"Courier New"'>&nbsp;</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>---================================---</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>Main components pseudo code.</span></b></p>
+
+<p class=MsoNoSpacing align=center style='text-align:center'><b><span
+style='font-size:16.0pt;font-family:"Courier New"'>---================================---
+</span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Construct</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Current Active
+Nodes (CAN)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Node Network</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Input and Output
+tables</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Eval is used
+to search the node network for the input pattern.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Eval()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Gather_Input()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   CAN.Query()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Charge()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Gather_Output()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Build is
+used when training to construct a representation of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> input data in
+the node network.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Gather_Input()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   CAN.Build()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Takes an
+input into the construct so that it can be read in and </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> built, or
+queried. The input can be a bytestring, array of integers, </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> array of
+floats, or any set of data that can be represented by a one </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> dimensional
+array.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Submit_Input(Data
+p_Input)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Reads p_Input into
+the table or array where the CAN can access it.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Starting at
+a given tier (Low_Tier) the CAN is charged until the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> topmost given
+tier is reached. This function is called after the CAN </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> has been
+built and uses the scaffold erected in the CAN.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Charge(int
+Low_Tier, int High_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for (Low_Tier
+to High_Tier as Current_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      for (Nodes
+in CAN.Scaffold on Current_Tier as Current_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      { </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>         Current_Node-&gt;Charge()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }         </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>//For all of the
+charged treetop nodes after evaluation gather the </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> patterns that
+the treetop nodes represent and store the gathered </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> patterns in the
+output. Other information about the treetops can be </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> gathered, such
+as the charge.</span></p>
+
+<p class=MsoNoSpacing>void Gather_Output()</p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for (Each
+charged treetop node as Current_Treetop_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Current_Treetop_Node.get_Pattern()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Take the
+pattern gathered and add it to the output along with </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      any other
+data wanted such as charge, reinforcement counter, </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      etc.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   } </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Current Active Nodes (CAN)</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------------------------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The CAN requires
+access to the node networks members that allow for </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Access to the
+node network</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The CAN
+builds the input from the construct.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Access to the
+input of the construct</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The node
+scaffold is a two dimensional array of Node_ID references. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> It is
+expanded to hold the construct necessary to represent the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> input
+pattern. The first index represents the height of the scaffold </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> in tiers
+which is equal to the length of the input set. The number </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> of nodes on
+each tier decreases with each step up the scaffold by </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> one to form a
+pyramidal structure.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Node_ID *
+Scaffold[Number_Of_Tiers] [Number_Of_Nodes_On_Each_Tier]</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--==  Example CAN
+with input of “1001”</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//After
+Resize() with the length of 4 on an input.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>0-&gt;  &lt;_NULL_&gt;
+&lt;_NULL_&gt; &lt;_NULL_&gt; &lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>1-&gt;  &lt;_NULL_&gt;
+&lt;_NULL_&gt; &lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>2-&gt;  &lt;_NULL_&gt;
+&lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>3-&gt;  &lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>//State layer has
+been filled.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>0-&gt;  &lt;_1_&gt;
+&lt;_2_&gt; &lt;_2_&gt; &lt;_1_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>1-&gt;  &lt;_NULL_&gt;
+&lt;_NULL_&gt; &lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>2-&gt;  &lt;_NULL_&gt;
+&lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>3-&gt;  &lt;_NULL_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>//All upper tier
+nodes have been filled out.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>0-&gt;  &lt;_1_&gt;
+&lt;_2_&gt; &lt;_2_&gt; &lt;_1_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>1-&gt;  &lt;_3_&gt;
+&lt;_4_&gt; &lt;_5_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>2-&gt;  &lt;_6_&gt;
+&lt;_7_&gt;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>3-&gt;  &lt;_8_&gt;</span></p>
+
+<span style='font-size:11.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Fills out
+the entire CAN, using preexisting nodes where possible </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> and creating
+new ones when needed.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Resize(Length_Of_Input)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Fill_State()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>  
+Build_Tiers_Full()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (Tracking
+reinforcement values){ Reinforce() }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Fills out
+the CAN but only with preexisting nodes, it does not </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> create new
+ones.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Query()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Resize(Length
+of the current input)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Fill_State()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>  
+Build_Tiers_Full()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Resizes the
+CAN scaffold based upon the size of the input.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Resize()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //This is
+where the access to the construct input first comes into </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    play.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>  
+Number_Of_Tiers = Length_Of_Input</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for
+(Number_Of_Tiers as Current_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      <i>//A pattern
+forms a pyramidal tree structure where each tier </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       from
+bottom to the top has one less node than the tier below </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       it.
+When the top tier is reached only one node is left, this </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       is the
+treetop node.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Number_Of_Nodes in Current_Tier = </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>       (Number_Of_Tiers
+- Current_Tier) </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   } </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Gathers the
+state nodes associated with each unit of input.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Fill_State()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{<i> </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //The state
+tier reads in the input so its length is equal to the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    input
+length.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for (Each unit
+of data in Input as Current_Data_Unit)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      //Each
+unit of input data corresponds to a node on the state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       tier.</span></i><span
+style='font-family:"Courier New"'> <i>So the input “101” has three nodes on the
+state tier.</i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Nodes.Get_State_Node(Current_Data_Unit)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Gathers the
+state node associated with each unit of input, but does </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> not create
+them if they are not found. Used for building a query.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Query_State()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //The state
+tier reads in the input so its length is equal to the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    input
+length.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for (Each unit
+of data in Input as Current_Input_Data_Unit)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      //Each
+unit of input data corresponds to a node on the state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       tier. So
+the input “101” has three nodes on the state tier. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       The
+state tier is the lowest tier so it has an index of 0 </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       (Scaffold[0]).</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Scaffold[0]
+[index of Current_Input_Data_Unit] = </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>       Nodes.Get_State_Node_For_Query(Current_Input_Data_Unit)
+</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Builds the
+node tiers after the input has been read in as state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> nodes.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build_Tiers_Full()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{<i> </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //The tree
+build from the pattern culminates in a single node, </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    this node
+is the treetop node. We do not go to this tier when </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    building
+because to do so would be requesting a node for a tier </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    higher
+than the highest tier in the current tree.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   f</span></i><span
+style='font-family:"Courier New"'>or ((Number_Of_Tiers – 1) as Current_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      //Each
+node has two lower connections with the exception of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       state
+tier, because of this we do not search from one end of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       the
+tier to the other. If we were to go to the end node we </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       would
+have the end node as a left leg and no right leg to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       search
+for. </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      for ((Number_Of_Nodes
+in Current_Tier) – 1 as Current_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>        
+//Assuming the nodes are in an array the current node may be </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          at
+index </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          Nodes_In_Current_Tier[Current_Node]
+</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>         
+While the next node may be at</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          Nodes_In_Current_Tier[Current_Node
++ 1].</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>         </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>        
+Nodes.Get_Upper_Tier_Connection(Current_Node, Next_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>         Set the
+current CAN reference node to hold the ID of the </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>          upper
+tier connection gathered.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Builds the
+node tiers after the input has been read in as state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> nodes but
+does not create new nodes.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Build_Tiers_Query()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //The tree
+build from the pattern culminates in a single node, </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    this node
+is the treetop node. We do not go to this tier when </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    building
+because to do so would be requesting a node for a tier </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    higher
+than the highest tier in the current tree.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   f</span></i><span
+style='font-family:"Courier New"'>or ((Number_Of_Tiers – 1) as Current_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      //Each
+node has two lower connections with the exception of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       state
+tier, because of this we do not search from one end of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       the
+tier to the other. If we were to go to the end node we </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       would
+have the end node as a left leg and no right leg to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>       search
+for. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>      </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      for
+((Number_Of_Nodes in Current_Tier) – 1 as Current_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      {</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>        
+//Assuming the nodes are in an array the current node may be </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          at
+index </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          Nodes_In_Current_Tier[Current_Node]
+</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>         
+While the next node may be at</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>          Nodes_In_Current_Tier[Current_Node
++ 1].</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>         </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>        
+Nodes.Does_Upper_Tier_Connection_Exist(Current_Node, </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>          Next_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>         Set the
+current CAN reference node to hold the ID of the </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>          upper
+tier connection gathered.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Reinforces
+the nodes currently in the CAN scaffold.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Reinforce()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   f</span></i><span
+style='font-family:"Courier New"'>or (Number_Of_Tiers as Current_Tier)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      for (Number_Of_Nodes
+in Current_Tier as Current_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>        
+Current_Node.Reinforce()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:16.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:16.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//====----------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//==--     
+Node Network</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:16.0pt;font-family:"Courier New"'>//====----------------------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'><br>
+-Nodes arranged in tiers</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Takes a unit
+of input data and returns the node that is associated </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> with the unit
+of data. If no node currently exists for that unit of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> data then a
+new node is created and associated with the unit of </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> data.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID Get_State_Node(Given_State)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Search nodes
+on state tier for Given_State</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (State node
+was found)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return the
+found node</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   else</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Create new
+state node with Given_State</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return the
+newly created node</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The same as
+Get_State_Node(), however, no node is created if the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> unit of data
+is not found.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID Get_State_Node_For_Query(Given_State)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{ </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Search Nodes
+on State tier for Given_State</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (State node
+was found)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return the
+found node</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   else</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return no
+node found</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Create a
+connection from p_From node to p_To node for the given </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> dendrite.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Create_Connection(Node_ID
+p_From, Node_ID p_To, </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> string p_Dendrite)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (p_Dendrite
+== “left”)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      p_From.Add_Axon(p_To)
+</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+p_To.Left_Dendrite = p_From</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (p_Dendrite
+== “right”)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      p_From.Add_Axon(p_To)
+</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      p_To.Right_Dendrite
+= p_From</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//When the CAN
+is building it needs to know if there is a node on a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> higher tier
+linking two lower tier nodes together. This function </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> searches for
+the linking node, if no node exists then one is </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> created.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID get_Upper_Tier_Connection(Node_ID
+left_Node, Node_ID </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> right_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Does_Upper_Tier_Connection_Exist()</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (a connection
+was found)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      return the
+connection found</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   new_Node =
+create a new node</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Create_Connection(left_Node,
+new_Node, “left”)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Create_Connection(right_Node,
+new_Node, “right”)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   return
+new_Node</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//When the CAN
+is building for a query this function searches for </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> then returns
+the upper tier linking node, however, if one does not </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> exist then
+false is returned instead of a node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID Does_Upper_Tier_Connection_Exist(Node_ID
+left_Node, Node_ID </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'> right_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   <i>//The axons
+are an array of Node_IDs so they can be iterated </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    through. </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   for (every
+axon in the left_Node as Current_Axon)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   { </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      if (Does_Right_Dendrite_Match(Current_Axon))</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>         return
+Current_Axon.Node_ID</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The pattern
+represented by the node is backpropagated into an </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> output
+suitable to hold it. This is done by using an algorithm to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> trace the
+lower legs in the correct order to retrieve the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> information
+originally used in the construction of the tree that the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> current node
+is at the top of.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>Node_ID Get_Node_Output_Pattern(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Backpropagate(p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>} </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>The
+backpropagation is initiated at the topmost treetop node. During </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> backpropagation
+the left dendrite is done slightly different than </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the right
+one. The left sends a signal down both of its dendrites; </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> whereas the
+right one only sends a signal down its right dendrite. </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> This creates
+a wave effect when plotted that outputs the pattern </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> used to
+construct the tree exactly as it was input. This is why </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> keeping
+dendrite order is so important; if we did not track dendrite </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> order the
+output would be a meaningless mess.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   <i>//Start the
+process with p_Node.</i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   Backpropagate_Left(p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Backpropagate
+a left dendrite linked node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate_Left(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //If a left
+dendrite exists then initiate a back propagation along </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    it, then Along
+the right side.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //If no
+left dendrite exists then that means that this node is a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    state node
+and the state should be output instead.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if
+(p_Node.Dendrite_Left != NULL)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Backpropagate_Left(p_Node.Dendrite_Left)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Backpropagate_Right(p_Node.Dendrite_Right)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   else</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Add
+p_Node.State to the pattern output.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Backpropagate_Right
+a right dendrite linked node.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Backpropagate_Right(Node_ID
+p_Node)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   //<i>If a
+right dendrite exists then initiate a back propagation </i></span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    along it,
+then along the right side.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>   //If no
+right leg exists then that means that this node is a state </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>    node and
+the state should be output instead.</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if
+(p_Node.Dendrite_Right != NULL)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Backpropagate_Right(p_Node.Dendrite_Right)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   else</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Add
+p_Node.State to the pattern output.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+
+<span style='font-size:14.0pt;line-height:115%;font-family:"Courier New"'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal><span style='font-size:14.0pt;line-height:115%;font-family:
+"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//==--     
+Node</span></p>
+
+<p class=MsoNoSpacing><span style='font-size:14.0pt;font-family:"Courier New"'>//====----------</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Contains:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Current Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Base Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//The action
+potential threshold and modifier charge function as a </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> filter when
+evaluating a network. Without these values then every </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> single node
+that gets a charge will pass that charge all the way to </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the top of
+the network. If you have a deep network with few inputs </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> you can
+charge the entire network at once which is usually not </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> desirable.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Action Potential
+Threshold (APT)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Modifier Charge</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Reinforcement
+Counter (RC)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Axons linking to
+the dendrites of higher nodes.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Node that
+state nodes do not have two dendrites; rather they link   </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> to a single
+node or contain a unit of data.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Left Dendrite
+linking to a lower node.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Right Dendrite
+linking to a lower node.</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Normal nodes
+do not have a state, unless you store the entire </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> pattern
+represented by each node with that node to allow for </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> skipping the
+backpropagation saving on calculations.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>-Data_Unit State</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>--== Functions:</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Adds to the
+nodes current charge, if the charge is over the action </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> potential
+threshold then it fires and sends a charge to all of the </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> nodes its
+axons connect to in the higher tiers.</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Charge(float
+p_Charge)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{  </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>  
+Add_To_Charge(p_Charge)   </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (Current_Charge
+&gt;= APT)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      for (Every
+axon as Current_Axon)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>        
+Current_Axon-&gt;Charge(Base_Charge)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Adds to the
+nodes current charge, the Modifier charges role is </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> to act as a
+filter of sorts. When using the RC charging you modify </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> the input
+charge based upon the RC score. </span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>void Add_To_Charge(float
+p_Charge)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (Using_RC)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   { </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Current_Charge += (p_Charge * Modifier_Charge) * RC </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if (!Using_RC)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   { </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>     
+Current_Charge += p_Charge * Modifier_Charge </span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   </span></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>&nbsp;</span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'>//Checks if
+the right dendrite value matches the given </span></i></p>
+
+<p class=MsoNoSpacing><i><span style='font-family:"Courier New"'> p_Right_Dendrite</span></i></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>bool
+f_Does_Right_Dendrite_Match(Node_ID p_Right_Dendrite)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>{</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   if
+(Right_Dendrite == p_Right_Dendrite)</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return true</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   else</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   {</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>      Return
+false</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>   }</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>}</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+<p class=MsoNoSpacing><span style='font-family:"Courier New"'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
